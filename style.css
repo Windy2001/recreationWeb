@@ -1,0 +1,70 @@
+body {
+    background-image: url('./images/recreation.jpg');
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.welcome-text {
+    font-size: 30px;
+}
+.welcome-image {
+    width: 350px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    background-color: rgba(210, 204, 204, 0.5);
+    color: black;
+}
+
+.top ul a {
+    color: aliceblue;
+}
+
+.choices button {
+    transition-duration: 0.4s;
+    padding: 4px;
+    border-radius: 12px;
+    border-color: grey;
+}
+
+button:hover {
+    background-color: #59cd5c;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
